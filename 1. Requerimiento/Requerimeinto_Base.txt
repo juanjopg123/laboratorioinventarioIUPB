@@ -1,0 +1,23 @@
+Nombre del Proyecto: Sistema de Inventario para Laboratorios de la Universidad  
+
+Nombre Aplicación: laboratorioinventarioIUPB
+
+Propósito: gestionar el inventario de equipos, reactivos y materiales en los laboratorios de la facultad.  
+
+Actores: Super usuario, docentes, estudiantes
+
+requerimiento: el sistema debe permitir la gestion del inventario, registro y control de prestamos, generación de reportes en PDF
+
+problemática: la gestion manual del inventarios en los laboratorios genera desorganización, errores en el control de prestamos y falta de información actualizada sobre la disponibilidad de equipos y materiales
+
+misión: mejorar la administración y control de recursos de laboratorio con una solución digital segura y eficiente
+
+vision: ser una herramienta institucional confiable que fortalezca la gestion y digitalización de los laboratorios universitarios
+
+Objetivo principal: construir un sistema de información que permita la gestion de inventario de equipos, reactivos y materiales en los laboratorios de la facultad para estudiantes y docentes.  
+
+objetivos específicos:
+
+escenario actual: 
+
+escenario esperado:
