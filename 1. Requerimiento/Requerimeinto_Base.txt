@@ -2,22 +2,58 @@ Nombre del Proyecto: Sistema de Inventario para Laboratorios de la Universidad
 
 Nombre Aplicación: laboratorioinventarioIUPB
 
-Propósito: gestionar el inventario de equipos, reactivos y materiales en los laboratorios de la facultad.  
+Propósito: Diseñar e implementar un sistema de información web que permita gestionar de manera, eficiente el inventario de equipos, reactivos y materiales en los laboratorios de la facultad, garantizando control, trazabilidad y disponibilidad actualizada de los recursos.
 
-Actores: Super usuario, docentes, estudiantes
+Actores del sistema
+- Super usuario (administrador): gestiona usuarios, permisos, inventario general y reportes
+- Docentes: solicitan prestamos, consultan disponibilidad de equips y materiales
+- Estudiantes: solicitan prestamos, consultan disponibilidad de equips y materiales
 
-requerimiento: el sistema debe permitir la gestion del inventario, registro y control de prestamos, generación de reportes en PDF
+requerimiento General
+el sistema debe permitir:
+- gestion completa del inventario (registro, edición, eliminación y consulta)
+- registro y control de prestamos de equipos y materiales
+- control de fechas de entregas y devolución
+- generación de reportes en formato PDF
 
-problemática: la gestion manual del inventarios en los laboratorios genera desorganización, errores en el control de prestamos y falta de información actualizada sobre la disponibilidad de equipos y materiales
+problemática: la gestion manual del inventario en los laboratorios genera desorganización, perdida de información, errores en el control de prestamos y falta de actualización en la disponibilidad de equipos y materiales, afectando la eficiencia académica y administrativa.
 
-misión: mejorar la administración y control de recursos de laboratorio con una solución digital segura y eficiente
+misión: brindar una solución digital segura, eficiente y accesible que optimice la administración, control y seguimiento de los recursos de laboratorio.
 
-vision: ser una herramienta institucional confiable que fortalezca la gestion y digitalización de los laboratorios universitarios
+vision: ser una herramienta institucional confiable que fortalezca la gestion, control y digitalización de los laboratorios universitarios, contribuyendo a la modernización de los procesos académicos y administrativos
 
-Objetivo principal: construir un sistema de información que permita la gestion de inventario de equipos, reactivos y materiales en los laboratorios de la facultad para estudiantes y docentes.  
+Objetivo principal: Desarrollar un sistema de información web que permita gestionar de manera eficiente el inventario, préstamo y control de equipos, reactivos y materiales de los laboratorios de la facultad, facilitando el acceso a estudiantes y docentes.
 
 objetivos específicos:
+1. Diseñar la base de datos que permita almacenar información de equipos, reactivos, materiales y usuarios.
+2. Implementar un módulo de gestión de inventario con operaciones CRUD.
+3. Desarrollar un módulo de registro y control de préstamos.
+4. Implementar control de roles y permisos (super usuario, docente, estudiante).
+5. Generar reportes en formato PDF sobre inventario y préstamos.
+7. Garantizar seguridad en el acceso mediante autenticación de usuarios.
 
-escenario actual: 
+escenario actual: Actualmente, el inventario de los laboratorios se gestiona de manera manual mediante hojas de cálculo o registros físicos. Los préstamos de equipos y materiales se anotan en formatos impresos o archivos no centralizados, lo que genera:
 
-escenario esperado:
+- Información desactualizada.
+- Dificultad para conocer la disponibilidad real de recursos.
+- Riesgo de pérdida de equipos o materiales.
+- Errores en el control de fechas de entrega.
+- Falta de reportes consolidados.
+
+escenario esperado
+
+El usuario (docente o estudiante) ingresa al sistema mediante autenticación.
+Desde el panel principal puede:
+
+- Consultar disponibilidad de equipos y materiales en tiempo real.
+- Registrar solicitudes de préstamo.
+- Visualizar fechas de entrega y estado del préstamo.
+
+El super usuario puede:
+
+- Registrar nuevos equipos o materiales.
+- Actualizar cantidades disponibles.
+- Aprobar o registrar préstamos.
+- Generar reportes en PDF del inventario y préstamos activos.
+
+El sistema mantiene la información centralizada, actualizada y segura, reduciendo errores y mejorando la organización.
