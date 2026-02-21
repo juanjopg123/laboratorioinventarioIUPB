@@ -18,9 +18,9 @@ el sistema debe permitir:
 
 problemática: la gestion manual del inventario en los laboratorios genera desorganización, perdida de información, errores en el control de prestamos y falta de actualización en la disponibilidad de equipos y materiales, afectando la eficiencia académica y administrativa.
 
-misión: brindar una solución digital segura, eficiente y accesible que optimice la administración, control y seguimiento de los recursos de laboratorio.
+misión: Actualmente los laboratorios de la facultad gestionan el inventario de equipos, reactivos y materiales de manera manual, lo que dificulta el control y seguimiento de los recursos disponibles.
 
-vision: ser una herramienta institucional confiable que fortalezca la gestion, control y digitalización de los laboratorios universitarios, contribuyendo a la modernización de los procesos académicos y administrativos
+vision: El sistema de inventario permitirá gestionar de manera digital y centralizada los recursos de los laboratorios, mejorando el control, la disponibilidad de información y la eficiencia en los procesos a nivel institucional.
 
 Objetivo principal: Desarrollar un sistema de información web que permita gestionar de manera eficiente el inventario, préstamo y control de equipos, reactivos y materiales de los laboratorios de la facultad, facilitando el acceso a estudiantes y docentes.
 
@@ -57,3 +57,45 @@ El super usuario puede:
 - Generar reportes en PDF del inventario y préstamos activos.
 
 El sistema mantiene la información centralizada, actualizada y segura, reduciendo errores y mejorando la organización.
+
+
+----------
+Objetos Alto nivel (high value objets)
+
+    Transaccion
+        Geografia: Colombia, Antioquia, Medellin, Pilarica, institución Universitaria Pascual Bravo
+
+        Comprador: estudiante o docente
+
+        Vendedor: administrador del laboratorio
+
+        Organizacion: LabControl IUPB
+
+        Producto / servicio: prestamo y gestion de equipos, reactivos y materiales de laboratorio
+
+        Transaccion - contrato
+
+-----------
+
+Objetos significativos (Entitis)
+
+    Geografia
+        Pais
+        Departamento
+        Ciudad
+    Comprador
+        Cliente
+        TipoDocumento
+        TipoGenero
+    Vendedor
+        Asistente
+        rol / perfil
+    Organizacion
+        Laboratorio
+        Sede
+    Producto
+        Referencia
+        TipoProducto
+    Transaccion
+        prestamo
+        DetallePrestamo
